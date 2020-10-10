@@ -27,13 +27,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach loops through the entire array
+.map creates a new array containing the selected data
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback is a function passed into another function. A higher order function accepts and returns callback functions.
 
 3. What is closure?
 
+Closure is when a function can complete because it has access to its variables globally or locally.
+
 4. Describe the four rules of the 'this' keyword.
 
+1. Window Binding - "this" refers to the whole console/window w/o restrictions.
+  2. Implicit Binding - "this" refers to the object "this" is nested inside
+  3. 'New' Binding - "new" creates a new constructor based on a parent constructor
+  4. Explicit Binding - "this" refers to a specific object chosen and inherits those properties
+
 5. Why do we need super() in an extended class?
+
+super() will copy the properties of the Parent class to the Child/ extended class/
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
